@@ -1,7 +1,15 @@
 aid: storyhunter
-name: Storyhunter
-description: Storyhunter is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Glimmer (formerly Storyhunter)
+description: Glimmer, formerly known as Storyhunter, is an all-in-one creator management
+  platform and global marketplace connecting brands and media companies with a vetted
+  network of 50,000+ freelance content creators, video producers, and journalists across
+  170+ countries. Founded in 2012 by Jaron Gilinsky in Brooklyn, New York, and rebranded
+  from Storyhunter to Glimmer in November 2023, the platform organizes creator teams,
+  messaging, project management, online contracts, and global payments in one central
+  dashboard, and offers Glimmer Select as a full-service managed production studio. Clients
+  have included CNN, The New York Times, National Geographic, MSNBC, and Starbucks. The
+  company was backed in part by 500 Global and is surfaced here as an API Evangelist
+  network company profile; it does not publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/storyhunter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://res.cloudinary.com/ddsqycvoq/image/upload/w_180,h_180/glimmer/favicon_dark_1000px.png
 tags:
 - Company
+- Creators
+- Video Production
+- Freelance Marketplace
+- Content Production
+- Media
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://glimmer.io
+- type: GettingStarted
+  url: https://glimmer.io/get-started/
+- type: SignUp
+  url: https://glimmer.io/get-started/
+- type: Login
+  url: https://glimmer.io/signin
+- type: Support
+  url: https://help.glimmer.io
+- type: Blog
+  url: https://glimmer.io/blog/
+- type: Pricing
+  url: https://help.glimmer.io/platform-fees
+- type: TermsOfService
+  url: https://glimmer.io/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://glimmer.io/legal/privacy-policy/
+- type: DomainSecurity
+  url: security/storyhunter-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
