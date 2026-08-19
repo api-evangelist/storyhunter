@@ -28,7 +28,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 image: https://res.cloudinary.com/ddsqycvoq/image/upload/w_180,h_180/glimmer/favicon_dark_1000px.png
